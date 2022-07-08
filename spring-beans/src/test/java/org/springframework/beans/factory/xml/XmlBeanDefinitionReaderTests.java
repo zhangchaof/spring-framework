@@ -101,6 +101,7 @@ public class XmlBeanDefinitionReaderTests {
 
 	@Test
 	public void withFreshInputStream() {
+		//test
 		SimpleBeanDefinitionRegistry registry = new SimpleBeanDefinitionRegistry();
 		Resource resource = new ClassPathResource("test.xml", getClass());
 		new XmlBeanDefinitionReader(registry).loadBeanDefinitions(resource);
